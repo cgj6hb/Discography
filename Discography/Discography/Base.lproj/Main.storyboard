@@ -71,10 +71,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="addNewExpense" destination="zFV-ND-QCI" id="raI-uD-c7q"/>
                         <outlet property="albumsTableView" destination="DGx-lh-o2L" id="F8w-4f-VpO"/>
-                        <outlet property="expensesTableView" destination="DGx-lh-o2L" id="siO-V4-hZJ"/>
-                        <segue destination="F0n-fh-zjO" kind="show" identifier="showExpense" id="SVx-IS-BOG">
+                        <segue destination="F0n-fh-zjO" kind="show" identifier="showAlbum" id="SVx-IS-BOG">
                             <nil key="action"/>
                         </segue>
                     </connections>
@@ -140,14 +138,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="amountTextField" destination="5V1-7I-XTy" id="9cn-OC-782"/>
                         <outlet property="nameTextField" destination="kH4-dr-oNs" id="l6C-OJ-CXw"/>
                         <outlet property="yearTextField" destination="5V1-7I-XTy" id="gi7-9O-9yb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2GA-na-Trt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1188" y="117.39130434782609"/>
+            <point key="canvasLocation" x="1390" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HBu-vt-hsN">
